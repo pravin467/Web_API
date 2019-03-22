@@ -1,0 +1,61 @@
+
+
+
+<html>
+    <head>
+        <title> </title>
+    </head>
+    
+    <body>
+        <form>
+            enter first numbwer:
+            <input type="text" id="one"/>
+            enter 2nd number 
+            
+            
+            
+            <input type="text" id="two"/>
+            
+            <select id="three">
+                <option >add</option>
+                <option >sub</option>
+                <option >multi </option>
+            </select>
+            
+            <P><button onclick="userinput();">click</button></P>
+        
+        
+        </form>
+        <script>
+            function userinput(){
+             var a= document.getElementById("one").value*1;
+                 var b= parseInt(document.getElementById("two").value);
+                var c= parseInt(document.getElementById("three").value);
+                if(c=="add"){
+                    var total=a+b;
+                    
+                }
+                if(c=="sub"){
+                    var total=a-b;
+                    
+                }
+                if(c=="multi"){
+                    var total=a*b;
+                    
+                }
+                alert(total);
+            }
+                
+                
+</script>
+        
+        
+        
+        
+    </body>
+    
+</html>
+            
+            
+            
+                    
